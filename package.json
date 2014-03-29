@@ -1,0 +1,29 @@
+{
+  "name": "transients",
+  "version": "0.1.2",
+  "description": "Transient JSON request caching",
+  "main": "transients.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitaldesigndj/transients"
+  },
+  "keywords": [
+    "json",
+    "transient",
+    "transients",
+    "utility",
+    "request"
+  ],
+  "dependencies": {
+    "request": "~2.34.0"
+  },
+  "author": "Taylor Young <tdy721@gmail.com> (http://hyprtxt.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitaldesigndj/transients/issues"
+  },
+  "homepage": "https://github.com/digitaldesigndj/transients"
+}
