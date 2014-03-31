@@ -9,7 +9,8 @@ exports.setTransient = function( name, url, cacheFor ) {
       transients[name].data = JSON.parse(body);
       transients[name].cachedAt = Math.round( new Date().getTime() / 1000 );
       return transients[name].data;
-    }else {
+    }
+    else {
       return false;
     }
   });
@@ -32,7 +33,8 @@ exports.getTransient = function( name, callback ) {
           return transients[name].data
         }
       });
-    }else{
+    }
+    else{
       if ( typeof callback == 'function' ) {
         callback( transients[name].data );
       }
